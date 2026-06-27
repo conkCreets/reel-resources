@@ -4,6 +4,7 @@ import org.slf4j.Logger;
 
 import com.conkcreets.reelresources.registers.ModBlocks;
 import com.conkcreets.reelresources.registers.ModItems;
+import com.conkcreets.reelresources.registers.ModLoot;
 import com.conkcreets.reelresources.registers.ModTabs;
 import com.mojang.logging.LogUtils;
 
@@ -54,6 +55,8 @@ public class ReelResources {
         ModItems.register(modEventBus);
         // Register the Deferred Register to the mod event bus so tabs get registered
         ModTabs.register(modEventBus);
+        // Register the Deferred Register to the mod event bus so loot modifiers get registered
+        ModLoot.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ReelResources) to respond directly to events.
