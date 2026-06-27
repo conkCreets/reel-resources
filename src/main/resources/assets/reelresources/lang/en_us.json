@@ -1,0 +1,13 @@
+{
+  "itemGroup.reelresources": "Example Mod Tab",
+  "block.reelresources.example_block": "Example Block",
+  "item.reelresources.example_item": "Example Item",
+
+  "reelresources.configuration.title": "Reel Resources Configs",
+  "reelresources.configuration.section.reelresources.common.toml": "Reel Resources Configs",
+  "reelresources.configuration.section.reelresources.common.toml.title": "Reel Resources Configs",
+  "reelresources.configuration.items": "Item List",
+  "reelresources.configuration.logDirtBlock": "Log Dirt Block",
+  "reelresources.configuration.magicNumberIntroduction": "Magic Number Text",
+  "reelresources.configuration.magicNumber": "Magic Number"
+}
