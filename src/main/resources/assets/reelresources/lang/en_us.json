@@ -1,7 +1,10 @@
 {
-  "itemGroup.reelresources": "Example Mod Tab",
+  "itemGroup.reelresources.reel_fish_tab": "Reel Fish Tab",
+  "itemGroup.reelresources.reel_equipment_tab": "Reel Equipment Tab",
   "block.reelresources.example_block": "Example Block",
   "item.reelresources.example_item": "Example Item",
+  "item.reelresources.iron_fish": "Iron Fish",
+  "block.reelresources.aquarium_block": "Aquarium Block",
 
   "reelresources.configuration.title": "Reel Resources Configs",
   "reelresources.configuration.section.reelresources.common.toml": "Reel Resources Configs",
