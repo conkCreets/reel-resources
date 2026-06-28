@@ -1,9 +1,12 @@
 package com.conkcreets.reelresources.registers;
 
 import com.conkcreets.reelresources.ReelResources;
+import com.conkcreets.reelresources.customblocks.AquariumBlock;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.material.MapColor;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.BlockItem;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -22,7 +25,8 @@ public class ModBlocks {
     // Creates a new BlockItem with the id "reelresources:example_block", combining the namespace and path
     public static final DeferredItem<BlockItem> EXAMPLE_BLOCK_ITEM = BLOCK_ITEMS.registerSimpleBlockItem("example_block", EXAMPLE_BLOCK);
     // Creates a new Block with the id "reelresources:aquarium_block", combining the namespace and path
-    public static final DeferredBlock<Block> AQUARIUM_BLOCK = BLOCKS.registerSimpleBlock("aquarium_block", p -> p.mapColor(MapColor.STONE));
+    public static final DeferredBlock<AquariumBlock> AQUARIUM_BLOCK = BLOCKS.register("aquarium_block", registryName -> 
+        new AquariumBlock(Block.Properties.of().setId(ResourceKey.create(Registries.BLOCK, registryName)).mapColor(MapColor.STONE)));
     // Creates a new BlockItem with the id "reelresources:aquarium_block", combining the namespace and path
     public static final DeferredItem<BlockItem> AQUARIUM_BLOCK_ITEM = BLOCK_ITEMS.registerSimpleBlockItem("aquarium_block", AQUARIUM_BLOCK);
 

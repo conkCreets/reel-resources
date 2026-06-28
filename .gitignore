@@ -22,3 +22,7 @@ build/
 # Mod dev
 run/
 logs/
+
+# Other
+docs/
+claude-notes/
