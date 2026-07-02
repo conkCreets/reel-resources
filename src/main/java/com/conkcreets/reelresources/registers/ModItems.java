@@ -16,7 +16,9 @@ public class ModItems {
             .alwaysEdible().nutrition(1).saturationModifier(2f).build()));
     // New Iron Fish item as my initial custom item.
     public static final DeferredItem<Item> IRON_FISH = FISH_ITEMS.registerSimpleItem("iron_fish");
-    
+    // New Iron Roe item as my initial custom item. (CC)
+    public static final DeferredItem<Item> IRON_ROE = FISH_ITEMS.registerSimpleItem("iron_roe");
+
     public static void register(IEventBus modEventBus) {
         FISH_ITEMS.register(modEventBus);
     }
