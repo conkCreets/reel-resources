@@ -19,6 +19,9 @@ build/
 # Mac
 .DS_Store
 
+# Windows
+bin/
+
 # Mod dev
 run/
 logs/
@@ -27,3 +30,4 @@ logs/
 docs/
 claude-notes/
 Claude/
+Aseprite/

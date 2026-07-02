@@ -5,6 +5,7 @@
   "item.reelresources.example_item": "Example Item",
   "item.reelresources.iron_fish": "Iron Fish",
   "block.reelresources.aquarium_block": "Aquarium Block",
+  "item.reelresources.iron_roe": "Iron Roe",
 
   "reelresources.configuration.title": "Reel Resources Configs",
   "reelresources.configuration.section.reelresources.common.toml": "Reel Resources Configs",
