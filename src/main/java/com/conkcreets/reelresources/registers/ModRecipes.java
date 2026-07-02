@@ -22,6 +22,7 @@ public class ModRecipes {
     public static final Supplier<RecipeSerializer<AquariumRecipe>> AQUARIUM_RECIPE_SERIALIZER = RECIPE_SERIALIZERS.register("aquarium_recipe_serializer", AquariumRecipeSerializer::new);
     public static final Supplier<RecipeType<AquariumRecipe>> AQUARIUM_RECIPE_TYPE = RECIPE_TYPES.register("aquarium_recipe_type", RecipeType::simple);
     public static final Supplier<RecipeBookCategory> AQUARIUM_RECIPE_BOOK_CATEGORY = RECIPE_BOOK_CATEGORIES.register("aquarium_recipe_book_category", RecipeBookCategory::new);
+    public static final String AQUARIUM_RECIPE = null;
 
     public static void register(IEventBus modEventBus) {
         RECIPE_SERIALIZERS.register(modEventBus);

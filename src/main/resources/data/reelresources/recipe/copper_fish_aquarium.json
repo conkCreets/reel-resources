@@ -1,0 +1,9 @@
+{
+    "type": "reelresources:aquarium_recipe_serializer",
+    "input": "reelresources:copper_fish",
+    "output": {
+        "id": "minecraft:copper_ingot",
+        "count": 1
+    },
+    "ticks_to_process": 200
+}

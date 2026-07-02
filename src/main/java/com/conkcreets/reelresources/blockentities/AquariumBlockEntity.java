@@ -75,11 +75,15 @@ public class AquariumBlockEntity extends BaseContainerBlockEntity {
             {
                 return;
             }
-            else 
+            else if (outputStack.getItem() == recipe.getOutput().getItem())
             {
                 outputStack.grow(1);
                 entity.setChanged();
                 entity.tickCounter = 0;
+            }
+            else
+            {
+                return;
             }
         }
 

@@ -1,5 +1,7 @@
 {
     "values": [
-        "reelresources:iron_fish"
+        "reelresources:iron_fish",
+        "reelresources:gold_fish",
+        "reelresources:copper_fish"
     ]
 }
