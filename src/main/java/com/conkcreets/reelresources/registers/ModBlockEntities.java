@@ -4,6 +4,7 @@ import java.util.function.Supplier;
 
 import com.conkcreets.reelresources.ReelResources;
 import com.conkcreets.reelresources.blockentities.AquariumBlockEntity;
+import com.conkcreets.reelresources.blockentities.RoeHarvesterBlockEntity;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.level.block.entity.BlockEntityType;
@@ -18,4 +19,7 @@ public class ModBlockEntities {
     public static void register(IEventBus modEventBus) {
         BLOCK_ENTITIES.register(modEventBus);
     }
+
+    public static final Supplier<BlockEntityType<RoeHarvesterBlockEntity>> ROE_HARVESTER = BLOCK_ENTITIES.register("roe_harvester_block_entity", () -> new BlockEntityType<RoeHarvesterBlockEntity>(RoeHarvesterBlockEntity::new, false, ModBlocks.ROE_HARVESTER.get()));
 }
+

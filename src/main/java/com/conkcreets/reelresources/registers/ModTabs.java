@@ -22,6 +22,7 @@ public class ModTabs {
             .icon(() -> ModItems.IRON_FISH.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
                 output.accept(ModItems.IRON_FISH.get());
+                output.accept(ModItems.IRON_ROE.get());
             }).build());
     
     // Creates a creative tab with the id "reelresources:reel_equipment_tab" for the example item, that is placed after the combat tab
@@ -31,6 +32,7 @@ public class ModTabs {
             .icon(() -> ModBlocks.AQUARIUM_BLOCK_ITEM.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
                 output.accept(ModBlocks.AQUARIUM_BLOCK_ITEM.get());
+                output.accept(ModBlocks.ROE_HARVESTER_ITEM.get());
             }).build());
 
     public static void register(IEventBus modEventBus) {
