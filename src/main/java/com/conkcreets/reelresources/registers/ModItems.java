@@ -20,6 +20,8 @@ public class ModItems {
     public static final DeferredItem<Item> COPPER_FISH = FISH_ITEMS.registerSimpleItem("copper_fish");
     // New Iron Roe item as my initial custom item. (CC)
     public static final DeferredItem<Item> IRON_ROE = FISH_ITEMS.registerSimpleItem("iron_roe");
+    public static final DeferredItem<Item> GOLD_ROE = FISH_ITEMS.registerSimpleItem("gold_roe");
+    public static final DeferredItem<Item> COPPER_ROE = FISH_ITEMS.registerSimpleItem("copper_roe");
 
     public static void register(IEventBus modEventBus) {
         FISH_ITEMS.register(modEventBus);

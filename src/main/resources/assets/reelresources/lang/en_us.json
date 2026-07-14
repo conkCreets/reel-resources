@@ -9,6 +9,8 @@
   "block.reelresources.aquarium_block": "Aquarium Block",
   
   "item.reelresources.iron_roe": "Iron Roe",
+  "item.reelresources.gold_roe": "Gold Roe",
+  "item.reelresources.copper_roe": "Copper Roe",
   "block.reelresources.roe_harvester": "Roe Harvester",
 
   "reelresources.configuration.title": "Reel Resources Configs",
