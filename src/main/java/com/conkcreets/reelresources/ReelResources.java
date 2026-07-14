@@ -7,6 +7,7 @@ import com.conkcreets.reelresources.registers.ModBlocks;
 import com.conkcreets.reelresources.registers.ModItems;
 import com.conkcreets.reelresources.registers.ModLoot;
 import com.conkcreets.reelresources.registers.ModMenus;
+import com.conkcreets.reelresources.registers.ModRecipes;
 import com.conkcreets.reelresources.registers.ModTabs;
 import com.mojang.logging.LogUtils;
 
@@ -63,6 +64,8 @@ public class ReelResources {
         ModBlockEntities.register(modEventBus);
         // Register the Deferred Register to the mod event bus so menus get registered
         ModMenus.register(modEventBus);
+        // Register the Deferred Register to the mod event bus so recipes get registered
+        ModRecipes.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ReelResources) to respond directly to events.

@@ -4,6 +4,8 @@
   "block.reelresources.example_block": "Example Block",
   "item.reelresources.example_item": "Example Item",
   "item.reelresources.iron_fish": "Iron Fish",
+  "item.reelresources.gold_fish": "Gold Fish",
+  "item.reelresources.copper_fish": "Copper Fish",
   "block.reelresources.aquarium_block": "Aquarium Block",
 
   "reelresources.configuration.title": "Reel Resources Configs",

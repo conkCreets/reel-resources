@@ -85,6 +85,11 @@ public class AquariumMenu extends AbstractContainerMenu {
         public boolean mayPlace(ItemStack stack) {
             return stack.is(ModTags.Items.FISH);
         }
+
+        @Override
+        public int getMaxStackSize(ItemStack stack) {
+            return 1; // Set the maximum stack size for the menu
+        }
     }
 
     public static class RoeInnerSlot extends Slot {

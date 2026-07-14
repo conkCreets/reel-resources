@@ -22,6 +22,8 @@ public class ModTabs {
             .icon(() -> ModItems.IRON_FISH.get().getDefaultInstance())
             .displayItems((parameters, output) -> {
                 output.accept(ModItems.IRON_FISH.get());
+                output.accept(ModItems.GOLD_FISH.get());
+                output.accept(ModItems.COPPER_FISH.get());
             }).build());
     
     // Creates a creative tab with the id "reelresources:reel_equipment_tab" for the example item, that is placed after the combat tab

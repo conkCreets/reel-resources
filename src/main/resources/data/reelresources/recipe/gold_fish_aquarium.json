@@ -1,0 +1,9 @@
+{
+    "type": "reelresources:aquarium_recipe_serializer",
+    "input": "reelresources:gold_fish",
+    "output": {
+        "id": "minecraft:gold_ingot",
+        "count": 1
+    },
+    "ticks_to_process": 200
+}
