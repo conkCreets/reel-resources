@@ -1,7 +1,7 @@
 {
     "values": [
-        "reelresources:iron_roe"
-        "reelresources:gold_roe"
+        "reelresources:iron_roe",
+        "reelresources:gold_roe",
         "reelresources:copper_roe"
     ]
 }
