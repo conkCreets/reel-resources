@@ -7,6 +7,9 @@
   "item.reelresources.gold_fish": "Gold Fish",
   "item.reelresources.copper_fish": "Copper Fish",
   "block.reelresources.aquarium_block": "Aquarium Block",
+  
+  "item.reelresources.iron_roe": "Iron Roe",
+  "block.reelresources.roe_harvester": "Roe Harvester",
 
   "reelresources.configuration.title": "Reel Resources Configs",
   "reelresources.configuration.section.reelresources.common.toml": "Reel Resources Configs",

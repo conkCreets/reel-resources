@@ -2,6 +2,7 @@ package com.conkcreets.reelresources;
 
 import com.conkcreets.reelresources.registers.ModMenus;
 import com.conkcreets.reelresources.screens.AquariumScreen;
+import com.conkcreets.reelresources.screens.RoeHarvesterScreen;
 
 import net.minecraft.client.Minecraft;
 import net.neoforged.api.distmarker.Dist;
@@ -37,5 +38,6 @@ public class ReelResourcesClient {
     public static void registerScreens(RegisterMenuScreensEvent event) {
         // Register your screens here
         event.register(ModMenus.AQUARIUM_MENU.get(), AquariumScreen::new);
+        event.register(ModMenus.ROE_HARVESTER_MENU.get(), RoeHarvesterScreen::new);
     }
 }

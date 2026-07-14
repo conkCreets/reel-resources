@@ -12,6 +12,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import com.conkcreets.reelresources.customblocks.RoeHarvester;
 
 public class ModBlocks {
     // Create a Deferred Register to hold Blocks which will all be registered under the "reelresources" namespace
@@ -34,4 +35,10 @@ public class ModBlocks {
         BLOCKS.register(modEventBus);
         BLOCK_ITEMS.register(modEventBus);
     }
+
+    //Creates a new Block with the id "reelresources:roe_harvester", combining the namespace and path
+    public static final DeferredBlock<RoeHarvester> ROE_HARVESTER = BLOCKS.register("roe_harvester", registryName -> 
+        new RoeHarvester(Block.Properties.of().setId(ResourceKey.create(Registries.BLOCK, registryName)).mapColor(MapColor.STONE)));
+    //Creates a new BlockItem with the id "reelresources:roe_harvester", combining the namespace and path
+    public static final DeferredItem<BlockItem> ROE_HARVESTER_ITEM = BLOCK_ITEMS.registerSimpleBlockItem("roe_harvester", ROE_HARVESTER);
 }
